@@ -14,6 +14,7 @@
 		04C81381255101A700ADB63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C81380255101A700ADB63B /* Assets.xcassets */; };
 		04C81384255101A700ADB63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C81382255101A700ADB63B /* LaunchScreen.storyboard */; };
 		04C81387255101A700ADB63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C81386255101A700ADB63B /* main.m */; };
+		04C813912551021100ADB63B /* KNdrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C813902551021100ADB63B /* KNdrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		04C81383255101A700ADB63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C81385255101A700ADB63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C81386255101A700ADB63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C8138F2551021100ADB63B /* KNdrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNdrawView.h; sourceTree = "<group>"; };
+		04C813902551021100ADB63B /* KNdrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNdrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		04C81373255101A100ADB63B /* drawView */ = {
 			isa = PBXGroup;
 			children = (
+				04C8138E255101F800ADB63B /* V */,
 				04C81374255101A100ADB63B /* AppDelegate.h */,
 				04C81375255101A100ADB63B /* AppDelegate.m */,
 				04C81377255101A100ADB63B /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				04C81386255101A700ADB63B /* main.m */,
 			);
 			path = drawView;
+			sourceTree = "<group>";
+		};
+		04C8138E255101F800ADB63B /* V */ = {
+			isa = PBXGroup;
+			children = (
+				04C8138F2551021100ADB63B /* KNdrawView.h */,
+				04C813902551021100ADB63B /* KNdrawView.m */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +115,9 @@
 		04C81369255101A100ADB63B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KN;
 				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "kunnan.blog.csdn.net   ";
 				TargetAttributes = {
 					04C81370255101A100ADB63B = {
 						CreatedOnToolsVersion = 12.0;
@@ -147,6 +162,7 @@
 			files = (
 				04C8137C255101A100ADB63B /* ViewController.m in Sources */,
 				04C81376255101A100ADB63B /* AppDelegate.m in Sources */,
+				04C813912551021100ADB63B /* KNdrawView.m in Sources */,
 				04C81387255101A700ADB63B /* main.m in Sources */,
 				04C81379255101A100ADB63B /* SceneDelegate.m in Sources */,
 			);
