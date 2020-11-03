@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040B740A2551563F00592340 /* KNApplication4sendEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B74092551563F00592340 /* KNApplication4sendEvent.m */; };
 		04C81376255101A100ADB63B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C81375255101A100ADB63B /* AppDelegate.m */; };
 		04C81379255101A100ADB63B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C81378255101A100ADB63B /* SceneDelegate.m */; };
 		04C8137C255101A100ADB63B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8137B255101A100ADB63B /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040B74082551563F00592340 /* KNApplication4sendEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNApplication4sendEvent.h; sourceTree = "<group>"; };
+		040B74092551563F00592340 /* KNApplication4sendEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNApplication4sendEvent.m; sourceTree = "<group>"; };
 		04C81371255101A100ADB63B /* drawView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C81374255101A100ADB63B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04C81375255101A100ADB63B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040B7407255155FD00592340 /* peocessEvent */ = {
+			isa = PBXGroup;
+			children = (
+				040B74082551563F00592340 /* KNApplication4sendEvent.h */,
+				040B74092551563F00592340 /* KNApplication4sendEvent.m */,
+			);
+			path = peocessEvent;
+			sourceTree = "<group>";
+		};
 		04C81368255101A100ADB63B = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +76,7 @@
 		04C81373255101A100ADB63B /* drawView */ = {
 			isa = PBXGroup;
 			children = (
+				040B7407255155FD00592340 /* peocessEvent */,
 				04C8138E255101F800ADB63B /* V */,
 				04C81374255101A100ADB63B /* AppDelegate.h */,
 				04C81375255101A100ADB63B /* AppDelegate.m */,
@@ -117,7 +130,7 @@
 			attributes = {
 				CLASSPREFIX = KN;
 				LastUpgradeCheck = 1200;
-				ORGANIZATIONNAME = "kunnan.blog.csdn.net   ";
+				ORGANIZATIONNAME = "https://kunnan.blog.csdn.net        ";
 				TargetAttributes = {
 					04C81370255101A100ADB63B = {
 						CreatedOnToolsVersion = 12.0;
@@ -161,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C8137C255101A100ADB63B /* ViewController.m in Sources */,
+				040B740A2551563F00592340 /* KNApplication4sendEvent.m in Sources */,
 				04C81376255101A100ADB63B /* AppDelegate.m in Sources */,
 				04C813912551021100ADB63B /* KNdrawView.m in Sources */,
 				04C81387255101A700ADB63B /* main.m in Sources */,
