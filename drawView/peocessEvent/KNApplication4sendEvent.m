@@ -4,7 +4,8 @@
 //
 //  Created by mac on 2020/11/3.
 //  Copyright © 2020 https://kunnan.blog.csdn.net        . All rights reserved.
-//
+////获取在屏幕上的点击坐标
+
 
 #import "KNApplication4sendEvent.h"
 
@@ -19,7 +20,6 @@
 
 @implementation KNApplication4sendEvent
 //获取在屏幕上的点击坐标
-
 
 - (void)sendEvent:(UIEvent *)event{
     if (event.type==UIEventTypeTouches) {

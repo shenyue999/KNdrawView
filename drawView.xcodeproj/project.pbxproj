@@ -57,6 +57,15 @@
 			path = peocessEvent;
 			sourceTree = "<group>";
 		};
+		04B4EE9925539AE00080008B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				04C8137A255101A100ADB63B /* ViewController.h */,
+				04C8137B255101A100ADB63B /* ViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 		04C81368255101A100ADB63B = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +91,7 @@
 				04C81375255101A100ADB63B /* AppDelegate.m */,
 				04C81377255101A100ADB63B /* SceneDelegate.h */,
 				04C81378255101A100ADB63B /* SceneDelegate.m */,
-				04C8137A255101A100ADB63B /* ViewController.h */,
-				04C8137B255101A100ADB63B /* ViewController.m */,
+				04B4EE9925539AE00080008B /* VC */,
 				04C8137D255101A100ADB63B /* Main.storyboard */,
 				04C81380255101A700ADB63B /* Assets.xcassets */,
 				04C81382255101A700ADB63B /* LaunchScreen.storyboard */,
