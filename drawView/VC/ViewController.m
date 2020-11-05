@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "KNdrawView.h"
 
+#import "KNSignViewController.h"
 
 typedef NS_ENUM(NSInteger, Attribute)
 {
@@ -50,6 +51,65 @@ typedef NS_ENUM(NSInteger, Attribute)
 @end
 
 @implementation ViewController
+
+
+
+- (void)gotoSignViewController{
+    
+    
+    
+    __weak __typeof__(self) weakSelf = self;
+
+    KNSignViewController *signVC = [[KNSignViewController alloc] init];
+    
+    
+//    signVC.saveStoreeCertificateInfoDto= self.saveStoreeCertificateInfoDto;
+    
+    
+//    signVC.dto = self.dto;
+    
+    
+    UIApplication.sharedApplication.keyWindow.backgroundColor = UIColor.whiteColor;
+    
+    self.navigationController.view.backgroundColor = UIColor.whiteColor;
+    self.view.backgroundColor =UIColor.whiteColor;
+    
+    
+    
+    signVC.view.backgroundColor =UIColor.whiteColor;
+    signVC.viewModel.signVPlaceHoalder =  @"请在下方空白处使用正楷书写您的签字";
+    
+    
+    signVC.signV.placeHoalderTextFont = kPingFangFont(15);
+    
+    
+    signVC.signV.lineColor = rgb(51, 51, 51);
+
+    
+    signVC.signResult = ^(UIImage *signImage) {
+        
+//        [weakSelf setupk_API_UploadPictures:signImage];
+        
+        
+                    [weakSelf.navigationController popViewControllerAnimated:YES];
+
+        [QCT_Common setupUIInterfaceOrientationMaskPortrait];
+        
+    };
+    
+//    .bl
+    signVC.backblock = ^(id  _Nonnull sender) {
+      
+        [QCT_Common setupUIInterfaceOrientationMaskPortrait];
+        
+        
+    };
+        
+
+    
+    [self.navigationController pushViewController:signVC animated:YES];
+
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

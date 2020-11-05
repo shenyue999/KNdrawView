@@ -3,11 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		040B740A2551563F00592340 /* KNApplication4sendEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B74092551563F00592340 /* KNApplication4sendEvent.m */; };
+		041D8C312553A561006EA2CE /* KNSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D8C302553A561006EA2CE /* KNSignViewController.m */; };
+		041D8C372553A7A2006EA2CE /* CRMCustomNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D8C362553A7A2006EA2CE /* CRMCustomNav.m */; };
+		0455F4D32553D6E000A1945C /* KNsignV.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F4D22553D6E000A1945C /* KNsignV.m */; };
+		0455F4D92553D71000A1945C /* KNSignatureViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F4D82553D71000A1945C /* KNSignatureViewModel.m */; };
+		0455F4DF2553D78B00A1945C /* CRMplaceHoalderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F4DD2553D78B00A1945C /* CRMplaceHoalderLabel.m */; };
+		0455F4E42553F38100A1945C /* CRMsignBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F4E22553F38000A1945C /* CRMsignBottomView.m */; };
+		0455F4F22553FBE800A1945C /* QCT_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F4F12553FBE800A1945C /* QCT_Common.m */; };
 		04C81376255101A100ADB63B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C81375255101A100ADB63B /* AppDelegate.m */; };
 		04C81379255101A100ADB63B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C81378255101A100ADB63B /* SceneDelegate.m */; };
 		04C8137C255101A100ADB63B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8137B255101A100ADB63B /* ViewController.m */; };
@@ -16,11 +23,27 @@
 		04C81384255101A700ADB63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C81382255101A700ADB63B /* LaunchScreen.storyboard */; };
 		04C81387255101A700ADB63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C81386255101A700ADB63B /* main.m */; };
 		04C813912551021100ADB63B /* KNdrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C813902551021100ADB63B /* KNdrawView.m */; };
+		44BE9D2A51F5C50D9966E828 /* libPods-drawView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0488C3BE4AB54EA9271AB65 /* libPods-drawView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040B74082551563F00592340 /* KNApplication4sendEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNApplication4sendEvent.h; sourceTree = "<group>"; };
 		040B74092551563F00592340 /* KNApplication4sendEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNApplication4sendEvent.m; sourceTree = "<group>"; };
+		041D8C2F2553A561006EA2CE /* KNSignViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSignViewController.h; sourceTree = "<group>"; };
+		041D8C302553A561006EA2CE /* KNSignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSignViewController.m; sourceTree = "<group>"; };
+		041D8C352553A7A2006EA2CE /* CRMCustomNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMCustomNav.h; sourceTree = "<group>"; };
+		041D8C362553A7A2006EA2CE /* CRMCustomNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMCustomNav.m; sourceTree = "<group>"; };
+		0455F4D12553D6E000A1945C /* KNsignV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNsignV.h; sourceTree = "<group>"; };
+		0455F4D22553D6E000A1945C /* KNsignV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNsignV.m; sourceTree = "<group>"; };
+		0455F4D72553D71000A1945C /* KNSignatureViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSignatureViewModel.h; sourceTree = "<group>"; };
+		0455F4D82553D71000A1945C /* KNSignatureViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSignatureViewModel.m; sourceTree = "<group>"; };
+		0455F4DD2553D78B00A1945C /* CRMplaceHoalderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMplaceHoalderLabel.m; sourceTree = "<group>"; };
+		0455F4DE2553D78B00A1945C /* CRMplaceHoalderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMplaceHoalderLabel.h; sourceTree = "<group>"; };
+		0455F4E22553F38000A1945C /* CRMsignBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMsignBottomView.m; sourceTree = "<group>"; };
+		0455F4E32553F38000A1945C /* CRMsignBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMsignBottomView.h; sourceTree = "<group>"; };
+		0455F4ED2553F9E000A1945C /* drawViewPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawViewPrefixHeader.pch; sourceTree = "<group>"; };
+		0455F4F02553FBE800A1945C /* QCT_Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCT_Common.h; sourceTree = "<group>"; };
+		0455F4F12553FBE800A1945C /* QCT_Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCT_Common.m; sourceTree = "<group>"; };
 		04C81371255101A100ADB63B /* drawView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C81374255101A100ADB63B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04C81375255101A100ADB63B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +58,9 @@
 		04C81386255101A700ADB63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04C8138F2551021100ADB63B /* KNdrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNdrawView.h; sourceTree = "<group>"; };
 		04C813902551021100ADB63B /* KNdrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNdrawView.m; sourceTree = "<group>"; };
+		110E876FC36A451590207B22 /* Pods-drawView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drawView.debug.xcconfig"; path = "Target Support Files/Pods-drawView/Pods-drawView.debug.xcconfig"; sourceTree = "<group>"; };
+		AE128AFF2397CFFAC702A5CE /* Pods-drawView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drawView.release.xcconfig"; path = "Target Support Files/Pods-drawView/Pods-drawView.release.xcconfig"; sourceTree = "<group>"; };
+		D0488C3BE4AB54EA9271AB65 /* libPods-drawView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-drawView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BE9D2A51F5C50D9966E828 /* libPods-drawView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +82,75 @@
 				040B74092551563F00592340 /* KNApplication4sendEvent.m */,
 			);
 			path = peocessEvent;
+			sourceTree = "<group>";
+		};
+		041D8C2E2553A538006EA2CE /* SignView */ = {
+			isa = PBXGroup;
+			children = (
+				0455F4EF2553FBDD00A1945C /* QCT_Common */,
+				0455F4D62553D6F800A1945C /* viewModel */,
+				0455F4D02553D0B700A1945C /* signV */,
+				041D8C342553A787006EA2CE /* CRMCustomNav */,
+				041D8C2F2553A561006EA2CE /* KNSignViewController.h */,
+				041D8C302553A561006EA2CE /* KNSignViewController.m */,
+			);
+			path = SignView;
+			sourceTree = "<group>";
+		};
+		041D8C342553A787006EA2CE /* CRMCustomNav */ = {
+			isa = PBXGroup;
+			children = (
+				041D8C352553A7A2006EA2CE /* CRMCustomNav.h */,
+				041D8C362553A7A2006EA2CE /* CRMCustomNav.m */,
+			);
+			path = CRMCustomNav;
+			sourceTree = "<group>";
+		};
+		0455F4D02553D0B700A1945C /* signV */ = {
+			isa = PBXGroup;
+			children = (
+				0455F4E12553F38000A1945C /* bottom */,
+				0455F4DC2553D77700A1945C /* placeHoalderLabel */,
+				0455F4D12553D6E000A1945C /* KNsignV.h */,
+				0455F4D22553D6E000A1945C /* KNsignV.m */,
+			);
+			path = signV;
+			sourceTree = "<group>";
+		};
+		0455F4D62553D6F800A1945C /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0455F4D72553D71000A1945C /* KNSignatureViewModel.h */,
+				0455F4D82553D71000A1945C /* KNSignatureViewModel.m */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		0455F4DC2553D77700A1945C /* placeHoalderLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0455F4DE2553D78B00A1945C /* CRMplaceHoalderLabel.h */,
+				0455F4DD2553D78B00A1945C /* CRMplaceHoalderLabel.m */,
+			);
+			path = placeHoalderLabel;
+			sourceTree = "<group>";
+		};
+		0455F4E12553F38000A1945C /* bottom */ = {
+			isa = PBXGroup;
+			children = (
+				0455F4E22553F38000A1945C /* CRMsignBottomView.m */,
+				0455F4E32553F38000A1945C /* CRMsignBottomView.h */,
+			);
+			path = bottom;
+			sourceTree = "<group>";
+		};
+		0455F4EF2553FBDD00A1945C /* QCT_Common */ = {
+			isa = PBXGroup;
+			children = (
+				0455F4F02553FBE800A1945C /* QCT_Common.h */,
+				0455F4F12553FBE800A1945C /* QCT_Common.m */,
+			);
+			path = QCT_Common;
 			sourceTree = "<group>";
 		};
 		04B4EE9925539AE00080008B /* VC */ = {
@@ -71,6 +167,8 @@
 			children = (
 				04C81373255101A100ADB63B /* drawView */,
 				04C81372255101A100ADB63B /* Products */,
+				879BAD6A64792686B0D9E18E /* Pods */,
+				97C42E375894F5539C567B1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +183,7 @@
 		04C81373255101A100ADB63B /* drawView */ = {
 			isa = PBXGroup;
 			children = (
+				041D8C2E2553A538006EA2CE /* SignView */,
 				040B7407255155FD00592340 /* peocessEvent */,
 				04C8138E255101F800ADB63B /* V */,
 				04C81374255101A100ADB63B /* AppDelegate.h */,
@@ -97,6 +196,7 @@
 				04C81382255101A700ADB63B /* LaunchScreen.storyboard */,
 				04C81385255101A700ADB63B /* Info.plist */,
 				04C81386255101A700ADB63B /* main.m */,
+				0455F4ED2553F9E000A1945C /* drawViewPrefixHeader.pch */,
 			);
 			path = drawView;
 			sourceTree = "<group>";
@@ -110,6 +210,23 @@
 			path = V;
 			sourceTree = "<group>";
 		};
+		879BAD6A64792686B0D9E18E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				110E876FC36A451590207B22 /* Pods-drawView.debug.xcconfig */,
+				AE128AFF2397CFFAC702A5CE /* Pods-drawView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97C42E375894F5539C567B1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0488C3BE4AB54EA9271AB65 /* libPods-drawView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C8138A255101A700ADB63B /* Build configuration list for PBXNativeTarget "drawView" */;
 			buildPhases = (
+				6279A72430585763472815B3 /* [CP] Check Pods Manifest.lock */,
 				04C8136D255101A100ADB63B /* Sources */,
 				04C8136E255101A100ADB63B /* Frameworks */,
 				04C8136F255101A100ADB63B /* Resources */,
+				1DCD24624501CCDD18D703B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,17 +295,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DCD24624501CCDD18D703B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-drawView/Pods-drawView-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-drawView/Pods-drawView-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-drawView/Pods-drawView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6279A72430585763472815B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-drawView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04C8136D255101A100ADB63B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0455F4D32553D6E000A1945C /* KNsignV.m in Sources */,
 				04C8137C255101A100ADB63B /* ViewController.m in Sources */,
+				0455F4D92553D71000A1945C /* KNSignatureViewModel.m in Sources */,
 				040B740A2551563F00592340 /* KNApplication4sendEvent.m in Sources */,
+				0455F4F22553FBE800A1945C /* QCT_Common.m in Sources */,
 				04C81376255101A100ADB63B /* AppDelegate.m in Sources */,
+				041D8C372553A7A2006EA2CE /* CRMCustomNav.m in Sources */,
+				0455F4DF2553D78B00A1945C /* CRMplaceHoalderLabel.m in Sources */,
 				04C813912551021100ADB63B /* KNdrawView.m in Sources */,
 				04C81387255101A700ADB63B /* main.m in Sources */,
+				0455F4E42553F38100A1945C /* CRMsignBottomView.m in Sources */,
 				04C81379255101A100ADB63B /* SceneDelegate.m in Sources */,
+				041D8C312553A561006EA2CE /* KNSignViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,11 +494,14 @@
 		};
 		04C8138B255101A700ADB63B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110E876FC36A451590207B22 /* Pods-drawView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 249PMS4KB9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = drawView/drawViewPrefixHeader.pch;
 				INFOPLIST_FILE = drawView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -344,11 +515,14 @@
 		};
 		04C8138C255101A700ADB63B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE128AFF2397CFFAC702A5CE /* Pods-drawView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 249PMS4KB9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = drawView/drawViewPrefixHeader.pch;
 				INFOPLIST_FILE = drawView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
