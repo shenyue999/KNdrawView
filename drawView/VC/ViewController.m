@@ -116,6 +116,8 @@ typedef NS_ENUM(NSInteger, Attribute)
     // Do any additional setup after loading the view.
 //    self.na
     
+    self.view.backgroundColor = UIColor.whiteColor;
+    
     self.navigationController.navigationBarHidden = YES;
 
     
