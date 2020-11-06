@@ -48,16 +48,37 @@
 
 #define rgb(r,g,b) HWColor(r,g,b)
 
+#define  IOS7 ([[UIDevice currentDevice].systemVersion doubleValue]>=7.0)
+
+#define IOS9 [UIDevice  currentDevice].systemVersion.floatValue>=9.0
+
+
+#pragma mark - ******** 导航栏的样式
+
+
+#define kNavListbackArrowColor rgb(102, 102, 102)
+
+
+#define kNavListTextColor rgb(0,0,0)
+#define kNavListNSFontAttributeName  kPingFangFont(18)
+
+#define kNavListUIBarButtonItemNSFontAttributeName  kPingFangFont(14)
+
+
+
 #import "QCT_Common.h"
 
 #import <Masonry/Masonry.h>
 
+#import "UIViewController+KNERPPresent13.h"
 
 #import <ReactiveObjC/ReactiveObjC.h>
 
+#import "QCTSession.h"
 
 #import <QMUIKit/QMUIKit.h>
 
+#import "QCTConsts.h"
 
 
 #endif /* drawViewPrefixHeader_pch */

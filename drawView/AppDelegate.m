@@ -8,6 +8,8 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
+#import "HWNavigationController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -23,7 +25,7 @@
     
     ViewController * vc = [[ViewController alloc] init];
     
-    UINavigationController * na = [[UINavigationController alloc] initWithRootViewController:vc];
+    UINavigationController * na = [[HWNavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = na;
     [self.window makeKeyAndVisible];
 

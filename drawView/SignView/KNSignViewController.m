@@ -1,7 +1,9 @@
 //
 //  KNSignViewController.m
 //  drawView
-//
+//【如果用户有打开手机的自动旋转功能 除了签名界面的页面，其余的都是竖屏】 ERPPresent13
+
+
 //  Created by mac on 2020/11/5.
 //  Copyright © 2020 https://kunnan.blog.csdn.net        . All rights reserved.
 //https://blog.csdn.net/z929118967/article/details/104796781
@@ -265,7 +267,7 @@ keyWindow是会变的
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
 
-    self.navigationController.navigationBarHidden = NO;
+    self.navigationController.navigationBarHidden = YES;
     
         [QCT_Common setupUIInterfaceOrientationMaskPortrait];
 

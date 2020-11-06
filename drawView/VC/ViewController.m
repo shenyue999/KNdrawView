@@ -38,8 +38,26 @@ typedef NS_ENUM(NSInteger, Attribute)
 @property(nonatomic,strong)  UIButton * rubberBtn;
 @property(nonatomic,strong)  UIButton * nextBtn;
 @property(nonatomic,strong)  UIButton * backBtn;
+
+/**
+ 
+ 保存
+ */
 @property(nonatomic,strong)  UIButton * saveBtn;
+
+/**
+ 
+ 设置：颜色、透明度
+ */
+
 @property(nonatomic,strong)   UIButton * setBtn;
+
+/**
+ 
+ 签名
+ */
+@property(nonatomic,strong)   UIButton * signBtn;
+
 
 @property(nonatomic,strong)  UIView * setBtnView;
 @property(nonatomic,strong)  UITableView * attributeTableView;
@@ -133,8 +151,14 @@ typedef NS_ENUM(NSInteger, Attribute)
     
     [self.view  addSubview:self.drawV];
     [self.view   addSubview:self.setBtnView];
+    
+    
     [self.view  addSubview:self.saveBtn];
     [self.view   addSubview:self.setBtn];
+    
+    [self signBtn];
+    
+    
     [self.view   addSubview:self.attributeTableView];
 }
 #pragma mark ---Help  Methods
@@ -357,6 +381,9 @@ typedef NS_ENUM(NSInteger, Attribute)
     }
     return _nextBtn;
 }
+
+
+
 -(UIButton *)saveBtn
 {
     if (_saveBtn == nil) {
@@ -367,6 +394,61 @@ typedef NS_ENUM(NSInteger, Attribute)
     }
     return _saveBtn;
 }
+
+
+
+//
+
+
+-(UIButton *)signBtn
+{
+    if (_signBtn == nil) {
+        
+        
+        _signBtn = [[UIButton alloc] initWithFrame:CGRectMake(320, 20, 50, 44)];
+        
+        
+        [_signBtn setTitle:@"签名" forState:UIControlStateNormal];
+        
+        
+        
+        _signBtn.backgroundColor = [UIColor orangeColor];
+        
+        [_signBtn addTarget:self action:@selector(gotoSignViewController) forControlEvents:UIControlEventTouchUpInside];
+        
+        
+        [self.view addSubview:_signBtn];
+        __weak __typeof__(self) weakSelf = self;
+
+        [_signBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+           
+            
+            make.centerX.equalTo(weakSelf.view);
+            
+            make.top.equalTo(weakSelf.view).offset(20);
+            
+            
+            make.size.mas_equalTo(CGSizeMake(50, 44));
+            
+            
+//        siez:// 50 44
+            
+            
+            
+            
+            
+            
+            
+            
+        }];
+        
+        
+    }
+    return _signBtn;
+}
+
+
+
 -(UIButton *)setBtn
 {
     if (_setBtn == nil) {
@@ -561,5 +643,20 @@ typedef NS_ENUM(NSInteger, Attribute)
             break;
     }
 }
+
+
+- (BOOL)shouldAutorotate {
+    //CRMSignatureViewController4EditMerchantInfo
+    //判断类型，签名的上一个界面需要自动旋转回来
+
+    return YES;
+}
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    return UIInterfaceOrientationPortrait;
+}
+
 
 @end
