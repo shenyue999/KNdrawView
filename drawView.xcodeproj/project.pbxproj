@@ -15,6 +15,7 @@
 		0455F4DF2553D78B00A1945C /* CRMplaceHoalderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F4DD2553D78B00A1945C /* CRMplaceHoalderLabel.m */; };
 		0455F4E42553F38100A1945C /* CRMsignBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F4E22553F38000A1945C /* CRMsignBottomView.m */; };
 		0455F4F22553FBE800A1945C /* QCT_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F4F12553FBE800A1945C /* QCT_Common.m */; };
+		049626882554FD470092C6D3 /* NSStringQCTtoll.m in Sources */ = {isa = PBXBuildFile; fileRef = 049626872554FD470092C6D3 /* NSStringQCTtoll.m */; };
 		04C81376255101A100ADB63B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C81375255101A100ADB63B /* AppDelegate.m */; };
 		04C81379255101A100ADB63B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C81378255101A100ADB63B /* SceneDelegate.m */; };
 		04C8137C255101A100ADB63B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8137B255101A100ADB63B /* ViewController.m */; };
@@ -44,6 +45,8 @@
 		0455F4ED2553F9E000A1945C /* drawViewPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawViewPrefixHeader.pch; sourceTree = "<group>"; };
 		0455F4F02553FBE800A1945C /* QCT_Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCT_Common.h; sourceTree = "<group>"; };
 		0455F4F12553FBE800A1945C /* QCT_Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCT_Common.m; sourceTree = "<group>"; };
+		049626862554FD470092C6D3 /* NSStringQCTtoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringQCTtoll.h; sourceTree = "<group>"; };
+		049626872554FD470092C6D3 /* NSStringQCTtoll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringQCTtoll.m; sourceTree = "<group>"; };
 		04C81371255101A100ADB63B /* drawView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C81374255101A100ADB63B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04C81375255101A100ADB63B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 		041D8C2E2553A538006EA2CE /* SignView */ = {
 			isa = PBXGroup;
 			children = (
+				049626862554FD470092C6D3 /* NSStringQCTtoll.h */,
+				049626872554FD470092C6D3 /* NSStringQCTtoll.m */,
 				0455F4EF2553FBDD00A1945C /* QCT_Common */,
 				0455F4D62553D6F800A1945C /* viewModel */,
 				0455F4D02553D0B700A1945C /* signV */,
@@ -353,6 +358,7 @@
 				04C813912551021100ADB63B /* KNdrawView.m in Sources */,
 				04C81387255101A700ADB63B /* main.m in Sources */,
 				0455F4E42553F38100A1945C /* CRMsignBottomView.m in Sources */,
+				049626882554FD470092C6D3 /* NSStringQCTtoll.m in Sources */,
 				04C81379255101A100ADB63B /* SceneDelegate.m in Sources */,
 				041D8C312553A561006EA2CE /* KNSignViewController.m in Sources */,
 			);
@@ -503,7 +509,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = drawView/drawViewPrefixHeader.pch;
 				INFOPLIST_FILE = drawView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,7 +531,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = drawView/drawViewPrefixHeader.pch;
 				INFOPLIST_FILE = drawView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

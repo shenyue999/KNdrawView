@@ -79,32 +79,18 @@
                 [tmpView setTitle:@"确认签名" forState:UIControlStateNormal];
                 [tmpView setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
 
-//                [tmpView addTarget:self action:@selector(signDoneAction:) forControlEvents:UIControlEventTouchUpInside];
                 
                 tmpView.backgroundColor =  rgb(255,54,87);
                 
                 
-//                [self addSubview:signDone];
-//                self.signDoneBtn = signDone;
-
-        
-        
-//        [self.contentView addSubview:_signDoneBtn];
         __weak __typeof__(self) weakSelf = self;
         [self addSubview:tmpView];
-//                    [_clearBtn mas_makeConstraints:^(MASConstraintMaker *make) {
 
                 [tmpView mas_makeConstraints:^(MASConstraintMaker *make) {
                     make.right.equalTo(weakSelf).offset(kAdjustRatio(-15));
                     make.centerY.equalTo(weakSelf.clearBtn);
                 }];
             [tmpView.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-//                make.right.equalTo(tmpView).offset(kAdjustRatio(-10));
-//                make.left.equalTo(tmpView).offset(kAdjustRatio(10));
-//                make.top.equalTo(tmpView).offset(kAdjustRatio(5));
-//                make.bottom.equalTo(tmpView).offset(kAdjustRatio(-5));
-//
-        //        make.centerY.equalTo(weakSelf.clearBtn);
                 
                 make.right.offset(kAdjustRatio(-25));
                 make.left.offset(kAdjustRatio(25));
@@ -112,10 +98,6 @@
                 make.bottom.offset(kAdjustRatio(-15));
 
                 
-//                make.right.offset(kAdjustRatio(-30));
-//                make.left.offset(kAdjustRatio(30));
-//                make.top.offset(kAdjustRatio(15));
-//                make.bottom.offset(kAdjustRatio(-15));
 
             }];
             
@@ -151,9 +133,9 @@
             NSString *title = @"清除重写";
             [tmpView setTitle:title forState:UIControlStateNormal];
             [tmpView setTitleColor:[UIColor colorWithRed:51.0f/255.0f green:51.0f/255.0f blue:51.0f/255.0f alpha:1.0f] forState:UIControlStateNormal];
-//            [tmpView addTarget:self action:@selector(clearSignAction:) forControlEvents:UIControlEventTouchUpInside];
-
-//        tmpView.titleLabel.font = kPingFangFont(11);
+        
+        
+        
         tmpView.titleLabel.font = kPingFangFont(15);
 
 
@@ -195,13 +177,6 @@
     return _clearBtn;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
 
 
 - (QMUIButton *)View_merchant_agreementBtn{
