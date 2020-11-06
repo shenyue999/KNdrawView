@@ -1,1 +1,1 @@
-# KNdrawView
+- [文章：iOS进阶【 只旋转自己想要旋转的屏幕：】1、viewWillAppear设置横屏2、viewWillDisappear 进行设置竖屏（应用场景：电子签名）](https://blog.csdn.net/z929118967/article/details/104796781)
