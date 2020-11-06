@@ -114,6 +114,10 @@ typedef NS_ENUM(NSInteger, Attribute)
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    self.na
+    
+    self.navigationController.navigationBarHidden = YES;
+
     
     [self setupUI];
 
